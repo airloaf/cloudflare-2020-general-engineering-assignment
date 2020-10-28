@@ -1,6 +1,6 @@
 name = "linktree"
-type = "javascript"
-account_id = ""
+type = "webpack"
+account_id = "4cc6cbec324d281972d22a10e839af06"
 workers_dev = true
 route = ""
 zone_id = ""

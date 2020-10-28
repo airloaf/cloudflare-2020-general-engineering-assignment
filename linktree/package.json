@@ -1,16 +1,18 @@
 {
-  "private": true,
-  "name": "linktree",
-  "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write '**/*.{js,css,json,md}'"
-  },
-  "author": "Vikram Singh <vikzilla18@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  }
+    "name": "linktree",
+    "version": "1.0.0",
+    "description": "package for creating workers templates",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "Vikram Singh <vikzilla18@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^1.17.0"
+    },
+    "dependencies": {
+        "serverless-cloudflare-workers": "^1.2.0"
+    }
 }
